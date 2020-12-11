@@ -1,6 +1,6 @@
 """GUI"""
 from tkinter import *
-from tkinter import ttk
+import sys
 window = Tk()
 window.title("Manipal Institute Of Technology")
 window.geometry('400x400')
@@ -16,5 +16,6 @@ d1 = Entry(window).grid(row = 3,column = 1)
 def clicked():
    res = "Welcome to " + txt.get()
    lbl.configure(text= res)
-btn = ttk.Button(window ,text="Submit").grid(row=4,column=0)
+btn = Button(window ,text="Submit").grid(row=4,column=0)
+window.bind(clicked)
 window.mainloop()
