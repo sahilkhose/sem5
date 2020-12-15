@@ -1,0 +1,8 @@
+--<ScriptOptions statementTerminator="!"/>
+
+CREATE TABLE UNIVERSITY_3218.RESULT_2 (
+		SNAME VARCHAR(10),
+		DEPTNAME VARCHAR(10)
+	)
+	DATA CAPTURE NONE!
+

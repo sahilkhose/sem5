@@ -1,0 +1,6 @@
+ Data-Flows  15 Dec, 2020 12:41:02 PM   SQW03415I: Flow execution started for SQW009 (/University/data-flows/DataFlow-4)
+ Data-Flows  15 Dec, 2020 12:41:02 PM   SQW38501I: Execution log file:  D:/180953218/sem5-main/DMPA/University/run-profiles/logs/DataFlow-4_SQW009.txt
+ Data-Flows  15 Dec, 2020 12:41:02 PM   SQW38509I: Execution temporary work directory:  D:/180953218/sem5-main/DMPA/University/run-profiles/tmp\DataFlow-4_SQW009
+ Data-Flows  15 Dec, 2020 12:41:24 PM   SQW38004E: Error encountered procesing resource: GSDBCB1
+ Data-Flows  15 Dec, 2020 12:41:24 PM   SQW03408I: Flow execution finished for SQW009 (/University/data-flows/DataFlow-4)
+ Data-Flows  15 Dec, 2020 12:41:24 PM   SQW38508I: Closing log file D:/180953218/sem5-main/DMPA/University/run-profiles/logs/DataFlow-4_SQW009.txt.

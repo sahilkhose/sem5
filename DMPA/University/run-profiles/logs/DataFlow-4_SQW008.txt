@@ -1,0 +1,30 @@
+ Data-Flows  15 Dec, 2020 12:40:39 PM   SQW03415I: Flow execution started for SQW008 (/University/data-flows/DataFlow-4)
+ Data-Flows  15 Dec, 2020 12:40:39 PM   SQW38501I: Execution log file:  D:/180953218/sem5-main/DMPA/University/run-profiles/logs/DataFlow-4_SQW008.txt
+ Data-Flows  15 Dec, 2020 12:40:39 PM   SQW38509I: Execution temporary work directory:  D:/180953218/sem5-main/DMPA/University/run-profiles/tmp\DataFlow-4_SQW008
+ Data-Flows  15 Dec, 2020 12:40:41 PM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMA3C9DD5_20"" through JDBC connection finished successfully
+ Data-Flows  15 Dec, 2020 12:40:41 PM   SQW030821E: Error while attempting to make connection to . SQW03430E: Cannot open connection: No database has been selected
+ Data-Flows  15 Dec, 2020 12:40:41 PM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = 3C9DD5
+     ${RESERVED/APP_NAME} = DataFlow-4
+     ${RESERVED/APP_PATH} = D:/180953218/sem5-main/DMPA/University/run-profiles/rp3c6259/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2020-12-15 12:40:40
+     ${RESERVED/DATE} = 2020-12-15
+     ${RESERVED/DAYNAME_SHORT} = Tue
+     ${RESERVED/DAYNAME} = Tuesday
+     ${RESERVED/DAY} = 15
+     ${RESERVED/INSTANCE_NAME} = SQW008
+     ${RESERVED/MISC_DIR} = D:/180953218/sem5-main/DMPA\University\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Dec
+     ${RESERVED/MONTHNAME} = December
+     ${RESERVED/MONTH} = 12
+     ${RESERVED/PROC_NAME} = DataFlow-4
+     ${RESERVED/RUN_ID} = 3C9DD5
+     ${RESERVED/START_TIMESTAMP} = 2020-12-15 12:40:40
+     ${RESERVED/TIME} = 12:40:40
+     ${RESERVED/TMP_DIR} = D:/180953218/sem5-main/DMPA/University/run-profiles/tmp\DataFlow-4_SQW008
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\Student
+     ${RESERVED/USER_NAME} = Student
+     ${RESERVED/YEAR} = 2020
+ Data-Flows  15 Dec, 2020 12:40:41 PM   SQW03408I: Flow execution finished for SQW008 (/University/data-flows/DataFlow-4)
+ Data-Flows  15 Dec, 2020 12:40:41 PM   SQW38508I: Closing log file D:/180953218/sem5-main/DMPA/University/run-profiles/logs/DataFlow-4_SQW008.txt.

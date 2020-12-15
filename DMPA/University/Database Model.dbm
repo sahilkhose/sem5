@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/7.5.2.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:datanotation="http:///datanotation.ecore">
+  <LUW:LUWDatabase xmi:id="_0Tp-oT6LEeuNM4bUBQ1eIQ" name="Database" vendor="DB2 UDB" version="V9.7" schemas="_0bUF0D6LEeuNM4bUBQ1eIQ"/>
+  <DB2Model:DB2Schema xmi:id="_0bUF0D6LEeuNM4bUBQ1eIQ" name="UNIVERSITY_3218" tables="_K1tPQD6MEeuNM4bUBQ1eIQ _McIagD6MEeuNM4bUBQ1eIQ _uOy_kD6TEeuNM4bUBQ1eIQ _laf7kD6XEeuNM4bUBQ1eIQ _We13wD6bEeuNM4bUBQ1eIQ _RPJqUD6cEeuNM4bUBQ1eIQ _TVP0ID6cEeuNM4bUBQ1eIQ" database="_0Tp-oT6LEeuNM4bUBQ1eIQ">
+    <eAnnotations xmi:id="_0dFAYD6LEeuNM4bUBQ1eIQ" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_0dFAYT6LEeuNM4bUBQ1eIQ" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_0dFAYj6LEeuNM4bUBQ1eIQ"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_0dFAYz6LEeuNM4bUBQ1eIQ"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_0dFAZD6LEeuNM4bUBQ1eIQ"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_0dFAZT6LEeuNM4bUBQ1eIQ"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_0dFAZj6LEeuNM4bUBQ1eIQ"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_0dFAZz6LEeuNM4bUBQ1eIQ"/>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </DB2Model:DB2Schema>
+  <LUW:LUWTable xmi:id="_K1tPQD6MEeuNM4bUBQ1eIQ" name="STUDENT" schema="_0bUF0D6LEeuNM4bUBQ1eIQ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_IjtiAD6NEeuNM4bUBQ1eIQ" name="STUDENT_ID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_ULSCED6NEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_L7brwD6NEeuNM4bUBQ1eIQ" name="STUDENT_NAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_U_H50D6NEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_NSHK0D6NEeuNM4bUBQ1eIQ" name="DEPTID">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_SRHbcD6NEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_WCv6AD6NEeuNM4bUBQ1eIQ" name="STUDENT_PK" members="_IjtiAD6NEeuNM4bUBQ1eIQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_ixdBQD6NEeuNM4bUBQ1eIQ" name="STUDENT_DEPARTMENT_FK" members="_NSHK0D6NEeuNM4bUBQ1eIQ" onDelete="CASCADE" uniqueConstraint="_DrTooD6NEeuNM4bUBQ1eIQ" referencedTable="_McIagD6MEeuNM4bUBQ1eIQ">
+      <eAnnotations xmi:id="_ixdBQT6NEeuNM4bUBQ1eIQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_ixdBQj6NEeuNM4bUBQ1eIQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_ixdBQz6NEeuNM4bUBQ1eIQ" key="FK_CHILD_MULTIPLICITY" value=""/>
+        <details xmi:id="_ixdBRD6NEeuNM4bUBQ1eIQ" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+        <details xmi:id="_ixdBRT6NEeuNM4bUBQ1eIQ" key="FK_PARENT_MULTIPLICITY" value=""/>
+        <details xmi:id="_ixdBRj6NEeuNM4bUBQ1eIQ" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_McIagD6MEeuNM4bUBQ1eIQ" name="DEPARTMENT" schema="_0bUF0D6LEeuNM4bUBQ1eIQ" referencingForeignKeys="_ixdBQD6NEeuNM4bUBQ1eIQ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_YY2rMD6MEeuNM4bUBQ1eIQ" name="DEPT_ID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_1UNnQD6MEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dNjJQD6MEeuNM4bUBQ1eIQ" name="DEPT_NAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_3vFHMD6MEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_fQl_ED6MEeuNM4bUBQ1eIQ" name="LOCATION">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_51k5oD6MEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_DrTooD6NEeuNM4bUBQ1eIQ" name="DEPARTMENT_PK" members="_YY2rMD6MEeuNM4bUBQ1eIQ" ForeignKey="_ixdBQD6NEeuNM4bUBQ1eIQ"/>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_uOy_kD6TEeuNM4bUBQ1eIQ" name="RESULT_1" schema="_0bUF0D6LEeuNM4bUBQ1eIQ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_4wzlwD6TEeuNM4bUBQ1eIQ" name="NAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_-KUoID6TEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_laf7kD6XEeuNM4bUBQ1eIQ" name="RESULT_2" schema="_0bUF0D6LEeuNM4bUBQ1eIQ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_tzNS8D6XEeuNM4bUBQ1eIQ" name="SNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_yEm2sD6XEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_vTFxUD6XEeuNM4bUBQ1eIQ" name="DEPTNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_zJroYD6XEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_We13wD6bEeuNM4bUBQ1eIQ" name="RESULT_3" schema="_0bUF0D6LEeuNM4bUBQ1eIQ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_YMY-sD6bEeuNM4bUBQ1eIQ" name="SNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_ZpDJ8D6bEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_bSudgD6bEeuNM4bUBQ1eIQ" name="DEPTNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_cefGAD6bEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_RPJqUD6cEeuNM4bUBQ1eIQ" name="RESULT_4" schema="_0bUF0D6LEeuNM4bUBQ1eIQ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_hqATMD6cEeuNM4bUBQ1eIQ" name="DEPTID">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_nn84UD6cEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_k9NJUD6cEeuNM4bUBQ1eIQ" name="DEPTNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_omaEoD6cEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="510"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_mki6kD6cEeuNM4bUBQ1eIQ" name="LOC">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_pclesD6cEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_TVP0ID6cEeuNM4bUBQ1eIQ" name="RESULT_5" schema="_0bUF0D6LEeuNM4bUBQ1eIQ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_jZSDAD6dEeuNM4bUBQ1eIQ" name="SID">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_HS4jkD6eEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_k6ohAD6dEeuNM4bUBQ1eIQ" name="SNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_IIyQ0D6eEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_majboD6dEeuNM4bUBQ1eIQ" name="DNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_I6qZsD6eEeuNM4bUBQ1eIQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="10"/>
+    </columns>
+  </LUW:LUWTable>
+</xmi:XMI>

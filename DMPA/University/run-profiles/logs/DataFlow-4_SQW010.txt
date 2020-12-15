@@ -1,0 +1,33 @@
+ Data-Flows  15 Dec, 2020 12:42:00 PM   SQW03415I: Flow execution started for SQW010 (/University/data-flows/DataFlow-4)
+ Data-Flows  15 Dec, 2020 12:42:00 PM   SQW38501I: Execution log file:  D:/180953218/sem5-main/DMPA/University/run-profiles/logs/DataFlow-4_SQW010.txt
+ Data-Flows  15 Dec, 2020 12:42:00 PM   SQW38509I: Execution temporary work directory:  D:/180953218/sem5-main/DMPA/University/run-profiles/tmp\DataFlow-4_SQW010
+ Data-Flows  15 Dec, 2020 12:42:03 PM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMA3DDD1F_25"" through JDBC connection finished successfully
+ Data-Flows  15 Dec, 2020 12:42:03 PM   SQW03275I: Execution of SQL statement "INSERT INTO UNIVERSITY_3218.RESULT_4 (DEPTID, DEPTNAME, LOC)
+  SELECT Q31.DEPT_ID AS DEPT_ID, Q31.DEPT_NAME AS DEPT_NAME, Q31.LOCATION AS LOCATION
+    FROM UNIVERSITY_3218.DEPARTMENT Q31
+    WHERE (Q31.LOCATION <> 'AB1')" through JDBC connection finished successfully
+ Data-Flows  15 Dec, 2020 12:42:03 PM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = 3DDD1F
+     ${RESERVED/APP_NAME} = DataFlow-4
+     ${RESERVED/APP_PATH} = D:/180953218/sem5-main/DMPA/University/run-profiles/rp3dcc07/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2020-12-15 12:42:02
+     ${RESERVED/DATE} = 2020-12-15
+     ${RESERVED/DAYNAME_SHORT} = Tue
+     ${RESERVED/DAYNAME} = Tuesday
+     ${RESERVED/DAY} = 15
+     ${RESERVED/INSTANCE_NAME} = SQW010
+     ${RESERVED/MISC_DIR} = D:/180953218/sem5-main/DMPA\University\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Dec
+     ${RESERVED/MONTHNAME} = December
+     ${RESERVED/MONTH} = 12
+     ${RESERVED/PROC_NAME} = DataFlow-4
+     ${RESERVED/RUN_ID} = 3DDD1F
+     ${RESERVED/START_TIMESTAMP} = 2020-12-15 12:42:01
+     ${RESERVED/TIME} = 12:42:01
+     ${RESERVED/TMP_DIR} = D:/180953218/sem5-main/DMPA/University/run-profiles/tmp\DataFlow-4_SQW010
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\Student
+     ${RESERVED/USER_NAME} = Student
+     ${RESERVED/YEAR} = 2020
+ Data-Flows  15 Dec, 2020 12:42:03 PM   SQW03408I: Flow execution finished for SQW010 (/University/data-flows/DataFlow-4)
+ Data-Flows  15 Dec, 2020 12:42:03 PM   SQW38508I: Closing log file D:/180953218/sem5-main/DMPA/University/run-profiles/logs/DataFlow-4_SQW010.txt.

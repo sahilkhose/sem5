@@ -1,0 +1,34 @@
+ Data-Flows  15 Dec, 2020 11:57:18 AM   SQW03415I: Flow execution started for SQW006 (/University/data-flows/DataFlow-5)
+ Data-Flows  15 Dec, 2020 11:57:18 AM   SQW38501I: Execution log file:  D:/180953218/sem5-main/DMPA/University/run-profiles/logs/DataFlow-5_SQW006.txt
+ Data-Flows  15 Dec, 2020 11:57:18 AM   SQW38509I: Execution temporary work directory:  D:/180953218/sem5-main/DMPA/University/run-profiles/tmp\DataFlow-5_SQW006
+ Data-Flows  15 Dec, 2020 11:57:21 AM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMA14F1AB_1a"" through JDBC connection finished successfully
+ Data-Flows  15 Dec, 2020 11:57:21 AM   SQW03275I: Execution of SQL statement "INSERT INTO UNIVERSITY_3218.RESULT_5 (SID, SNAME, DNAME)
+  SELECT Q420.STUDENT_ID AS STUDENT_ID, Q420.STUDENT_NAME AS STUDENT_NAME,
+         Q424.DEPT_NAME AS DEPT_NAME
+    FROM UNIVERSITY_3218.STUDENT Q420, UNIVERSITY_3218.DEPARTMENT Q424
+    WHERE (Q420.DEPTID = Q424.DEPT_ID) AND (Q424.DEPT_NAME = 'ICT')" through JDBC connection finished successfully
+ Data-Flows  15 Dec, 2020 11:57:21 AM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = 14F1AB
+     ${RESERVED/APP_NAME} = DataFlow-5
+     ${RESERVED/APP_PATH} = D:/180953218/sem5-main/DMPA/University/run-profiles/rp14de6e/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2020-12-15 11:57:20
+     ${RESERVED/DATE} = 2020-12-15
+     ${RESERVED/DAYNAME_SHORT} = Tue
+     ${RESERVED/DAYNAME} = Tuesday
+     ${RESERVED/DAY} = 15
+     ${RESERVED/INSTANCE_NAME} = SQW006
+     ${RESERVED/MISC_DIR} = D:/180953218/sem5-main/DMPA\University\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Dec
+     ${RESERVED/MONTHNAME} = December
+     ${RESERVED/MONTH} = 12
+     ${RESERVED/PROC_NAME} = DataFlow-5
+     ${RESERVED/RUN_ID} = 14F1AB
+     ${RESERVED/START_TIMESTAMP} = 2020-12-15 11:57:20
+     ${RESERVED/TIME} = 11:57:20
+     ${RESERVED/TMP_DIR} = D:/180953218/sem5-main/DMPA/University/run-profiles/tmp\DataFlow-5_SQW006
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\Student
+     ${RESERVED/USER_NAME} = Student
+     ${RESERVED/YEAR} = 2020
+ Data-Flows  15 Dec, 2020 11:57:21 AM   SQW03408I: Flow execution finished for SQW006 (/University/data-flows/DataFlow-5)
+ Data-Flows  15 Dec, 2020 11:57:21 AM   SQW38508I: Closing log file D:/180953218/sem5-main/DMPA/University/run-profiles/logs/DataFlow-5_SQW006.txt.

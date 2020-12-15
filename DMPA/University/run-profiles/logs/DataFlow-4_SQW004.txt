@@ -1,0 +1,6 @@
+ Data-Flows  15 Dec, 2020 11:46:25 AM   SQW03415I: Flow execution started for SQW004 (/University/data-flows/DataFlow-4)
+ Data-Flows  15 Dec, 2020 11:46:25 AM   SQW38501I: Execution log file:  D:/180953218/sem5-main/DMPA/University/run-profiles/logs/DataFlow-4_SQW004.txt
+ Data-Flows  15 Dec, 2020 11:46:25 AM   SQW38509I: Execution temporary work directory:  D:/180953218/sem5-main/DMPA/University/run-profiles/tmp\DataFlow-4_SQW004
+ Data-Flows  15 Dec, 2020 11:46:26 AM   SQW38505E: Code validation warning encountered.
+ Data-Flows  15 Dec, 2020 11:46:26 AM   SQW03407E: Execution failed for instance SQW004 (/University/data-flows/DataFlow-4)
+ Data-Flows  15 Dec, 2020 11:46:26 AM   SQW38508I: Closing log file D:/180953218/sem5-main/DMPA/University/run-profiles/logs/DataFlow-4_SQW004.txt.
