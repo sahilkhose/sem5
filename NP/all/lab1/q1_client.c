@@ -38,10 +38,11 @@ int main(){
     printf("Number of Integers \n");
     scanf("%d", &n);
     printf("Enter Integers\n");
-    for(int i = 0; i < n; i++){
+    int i;
+    for(i = 0; i < n; i++){
    	 scanf("%d", &a[i]);
     }
-    for(int i = 0; i < n; i++){
+    for(i = 0; i < n; i++){
    	 ca[i] = a[i];
     }
     

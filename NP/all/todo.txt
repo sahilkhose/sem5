@@ -1,0 +1,10 @@
+By 9.00 am tomorrow (25.12.2020)
+
+Lab 5: Lab exercise 1 (no additional exercises)
+Lab 8: Lab exercises 1 and 2 (no additional exercises)
+Lab 9: Additional exercise 1 (hybrid: any two basic topologies) (no lab exercises)
+
+Snapshot of the topology
+CLI configuration typed (not screenshot)
+One sample Ping and pc configuration for each experiment (snapshot)
+Overall observation on each experiment.

@@ -53,13 +53,13 @@ while(1){
     char buff2[50];
     strcpy(buff2,buff);
     buff[1]=strlen(buff2);
-    int n=0;
-    for(int i=0;i<buff[1];i++)
+    int n=0, i;
+    for(i=0;i<buff[1];i++)
    	 if(buff2[i]=='a'||buff2[i]=='e'||buff2[i]=='o'||buff2[i]=='i'||buff2[i]=='u')
    		 n++;
     buff[2]=n;
     buff[0]=1;
-    for(int i=0;i<buff[1]/2;i++)
+    for(i=0;i<buff[1]/2;i++)
     {
    	 if(buff2[i]!=buff2[buff[1]-i-1])
    	 {

@@ -77,9 +77,9 @@ int main(){
    	 }
    	 n = buff[0];
    	 z = buff[1];
+     int l, i, j, temp;
    	 switch(z){
    		 case 1: search = buff[2];
-   				 int l;
    				 for(l = 0; l < n; l++){
    					 if(a[l] == search)
    						 break;
@@ -89,49 +89,49 @@ int main(){
    				 else
    					 printf("Element exists at %d\n",l+1 );
    				 break;
-   		 case 2: for(int i=0;i<n-1;i++)
+   		 case 2: for(i=0;i<n-1;i++)
    				 {
-   					 for(int j=0;j<n-i-1;j++)
+   					 for(j=0;j<n-i-1;j++)
    						 {
    							 if(a[j]>a[j+1])
    							 {
-   								 int temp=a[j];
+   								 temp=a[j];
    								 a[j]=a[j+1];
    								 a[j+1]=temp;
    							 }
    						 }
    				 }
    				 printf("\nSorted array is: \n");
-   				 for(int i=0;i<n;i++)
+   				 for(i=0;i<n;i++)
    					 printf("%d  ",a[i]);
    				 printf("\n\n");
    				 break;
-   		 case 3: for(int i=0;i<n-1;i++)
+   		 case 3: for(i=0;i<n-1;i++)
    				 {
-   					 for(int j=0;j<n-i-1;j++)
+   					 for(j=0;j<n-i-1;j++)
    						 {
    							 if(a[j]<a[j+1])
    							 {
-   								 int temp=a[j];
+   								 temp=a[j];
    								 a[j]=a[j+1];
    								 a[j+1]=temp;
    							 }
    						 }
    				 }
    				 printf("\nSorted array is: \n");
-   				 for(int i=0;i<n;i++)
+   				 for(i=0;i<n;i++)
    					 printf("%d  ",a[i]);
    				 printf("\n\n");
    				 break;
    		 case 4:
    		 printf("\nEven aay is: \n");
-   				 for(int i=0;i<n;i++)
+   				 for(i=0;i<n;i++)
    				 {
    					 if(a[i]%2==0)
    						 printf("%d ",a[i]);
    				 }
    				 printf("\n\nOdd aay is: \n");
-   				 for(int i=0;i<n;i++)
+   				 for(i=0;i<n;i++)
    				 {
    					 if(a[i]%2!=0)
    						 printf("%d ",a[i]);

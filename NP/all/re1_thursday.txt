@@ -1,0 +1,6 @@
+Write two separate connection-oriented C programs (one for the Server and one for Client) using UNIX socket APIs for following operations with acknowledgements. 
+Server stores the following information about one employee in the file: Emp Id, Employee Name, Basic Salary (Monthly).  Client will have three menu driven operations: Insert, Display and Update.
+1. Clients sends the second employee data to be written in the file for Insert Operation. (1.5 M to write in file)
+2. Client sends Emp Id to server to fetch the details of the employee. Display the details from the file at the client side. Perform (2.5M to communication and display) 
+3. Server calculates the Updated Salary = (Basic Salary + % of Basic Salary as Allowances) – Income Tax Deduction, for both the employees. And write Updated Salary into the file (Here % Allowance and Income Tax Deduction value can be hard coded.) (4M: Calculation and writing in the file)
+4. Server sends the new data to client at the client side, for display operation. (2M: Communication and display)
