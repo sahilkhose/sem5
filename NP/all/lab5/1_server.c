@@ -87,6 +87,8 @@ int main(){
 				close(sockfd);
 				exit(0);
 			}
+
+			
 			printf("%s\n", str);
 		if((child = fork()) == 0){
 			
